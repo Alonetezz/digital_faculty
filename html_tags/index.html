@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML теги</title>
+</head>
+<body>
+    <header>
+        <nav>
+            содержимое тега nav
+        </nav>
+    </header>
+    <div>
+        aboba div
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, ex.
+    </div>
+    <div>
+        Lorem ipsum dolor sit amet.
+    </div>
+    <footer>
+        aboba footer
+    </footer>
+
+    <h1>Содержимое тега h1</h1>
+    <h2>Содержимое тега h2</h2>
+    <h3>Содержимое тега h3</h3>
+    <h4>Содержимое тега h4</h4>
+    <h5>Содержимое тега h5</h5>
+    <h6>Содержимое тега h6</h6>
+
+    <p>Абзац №1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem vero, reprehenderit ducimus repellendus dolores nesciunt deleniti et laudantium, temporibus quis sequi distinctio aliquid modi beatae. Atque blanditiis sequi vel eos.</p>
+    <p>Абзац №2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, sunt. Veritatis accusamus distinctio, maiores, eos laudantium ducimus ipsa deserunt veniam eaque consequuntur harum quos quasi error dicta sapiente ad? Voluptas!</p>
+    <span>Содержимое тега span #1</span>
+    <span>Содержимое тега span #2</span>
+    <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus veritatis quibusdam provident soluta possimus delectus eaque ea fugiat deleniti, at reprehenderit perspiciatis quod rerum molestias magnam exercitationem illum repellendus quisquam!</span>
+    <p>
+        <a href="https://www.youtube.com">Ссылка</a>
+    </p>
+    
+    <p>
+        <a target="_blank" href="https://www.youtube.com">Ссылка в новом окне</a> <!--Содержимое будет открыто в новом окне-->
+    </p>
+    <img src="img/кот.jpg" alt="Aboba"> <!--Атрибут alt будет показан, если не будет найдена картинка-->
+
+
+    <ul>
+        <li>Маркерованный список</li>
+        <li>Маркерованный список</li>
+        <li>Маркерованный список</li>
+        <li>Маркерованный список</li>
+    </ul>
+
+    <ol>
+        <li>Нумерованный список</li>
+        <li>Нумерованный список</li>
+        <li>Нумерованный список</li>
+        <li>Нумерованный список</li>
+    </ol>
+
+    <br> <!--Перевод строки-->
+
+    <form action="#"></form> <!--Передача данных для поиска-->
+    <form action="#" method="get"></form> <!--Передача прямо в адресной строке, видны всем пользователям-->
+    <form action="#" method="post" enctype="multipart/form-data"></form> <!--Передает данные скрытно, используя запрос браузера(для отправки файлов и т.д.)-->
+
+    <input type="text" name="Search" value=""><!--Поле ввода (value - данные ввода, можно заполнить)-->
+    
+    <br>
+    <input placeholder="aboba" type="text" name="Search" value=""><!--Серенькое значение-->
+
+    <br>
+    <input type="tel"> <!--Переключение клавиатуры на цифровую (для телефонов)-->
+    
+    <br>
+    <input type="password" name="used_pass" value=""><!--В поле ввода вместо символов будет ***-->
+
+    <div>
+        <p><input type="radio" name="Beer" value="lager">Светлое пиво</p>
+        <p><input type="radio" name="Beer" value="dark">Темное пиво</p>
+    </div>
+    <br>
+    <div>
+        <p><input checked type="radio" name="Beer2" value="lager">Светлое пиво</p> <!--Значение уже будет выбрано-->
+    </div>
+    <br>
+    <div>
+        <p><input type="checkbox" name="dota" value="yes">Ты играл в доту?</p> <!--атрибут checked работает аналогично-->
+    </div>
+        
+    <br>
+    <div>
+        <h1>Ты сегодня играл в доту?</h1>
+        <p><input type="checkbox" name="Dota" value="Da">Да</p>
+        <p><input type="checkbox" name="Dota" value="Net">Нет</p>
+    </div>
+
+    <br>
+    <div>
+        <input type="file" name="Photo"> <!--Прикрепление файла-->
+    </div>
+
+    <br>
+    <div>
+        <textarea name="Aboba">aboba</textarea> <!--Поле для ввода текста-->
+    </div>
+
+    <br>
+
+    <!--Ниже выпадающий список-->
+    <div>
+        <select name="value" id="1"><!--"коробочка"-->
+            <option value="value_0">10</option><!--пункт списка-->
+            <option selected value="value_1">100</option><!--Автовыбор-->
+            <option value="value_2">1000</option>
+        </select>
+    </div>
+
+    <br>
+
+    <div>
+        <select multiple name="value" id="1"><!--множественный выбор через ctrl-->
+            <option value="value_0">10</option>
+            <option value="value_1">100</option>
+            <option value="value_2">1000</option>
+        </select>
+    </div>
+
+
+    <br>
+    <button>ABOBA</button><!--Аросто кнопка-->
+    <button type="submit">ABOBA</button> <!--Отправится вся форма на сервер-->
+    <button type="reset">ABOBA</button> <!--Вся форма очистится-->
+    <div>
+        <img src="img/кот.jpg" alt="Aboba">
+    </div>
+
+</body>
+</html>
